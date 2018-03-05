@@ -3,7 +3,7 @@ let operators = ['+', '-', '*', '/'];
  let decimalAdded = false;
 
 for (let i = 0; i < keys.length; i++) {
-	keys[i].onclick = function(e) {
+	keys[i].onclick = function() {
 
 		let input = document.querySelector('.answer');
 		let inputVal = input.value;
